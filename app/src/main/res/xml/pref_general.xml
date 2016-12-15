@@ -1,0 +1,29 @@
+<PreferenceScreen xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="googleotp_switch"
+        android:summary="Switch to enable Google Authenticator"
+        android:title="Google Authenticator"
+        android:persistent="false" />
+    <EditTextPreference
+        android:defaultValue=""
+        android:selectAllOnFocus="false"
+        android:singleLine="true"
+        android:title="Click to Reveal Shared Key"
+        android:dialogTitle="Shared Key"
+        android:key="txtShareKey"
+        android:saveEnabled="false"
+        android:positiveButtonText=""
+        android:negativeButtonText="Close"
+        android:selectable="true"
+        android:textIsSelectable="true"
+        android:editable="false" />
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="fingerprint_switch"
+        android:summary="Switch to enable Fingerprint validation"
+        android:title="Fingerprint" />
+
+</PreferenceScreen>

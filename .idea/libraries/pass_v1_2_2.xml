@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="pass-v1.2.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/pass-v1.2.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
